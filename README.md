@@ -6,7 +6,6 @@ PDO DB library for Slim Framework
 require_once 'vendor/autoload.php';
 
 $dsn = 'mysql:host=your_db_host;dbname=your_db_name;charset=utf8';
-
 $usr = 'your_db_username';
 
 $pwd = 'your_db_password';
