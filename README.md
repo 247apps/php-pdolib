@@ -1,4 +1,4 @@
 # php-pdolib
 PDO DB library for Slim Framework
 
-add this row
+require_once 'vendor/autoload.php';
