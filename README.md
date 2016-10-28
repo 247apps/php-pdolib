@@ -33,3 +33,10 @@ $updateStatement = $pdo->update(array('pwd' => 'your_new_password'))
                        ->where('id', '=', 1234);
                        
 $affectedRows = $updateStatement->execute();
+
+// DELETE FROM users WHERE id = ?
+$deleteStatement = $pdo->delete()
+                       ->from('users')
+                       ->where('id', '=', 1234);
+
+$affectedRows = $deleteStatement->execute();
